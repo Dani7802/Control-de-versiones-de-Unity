@@ -25,8 +25,8 @@ public class ShootSystem : MonoBehaviour
 
     private void Shoot()
     {
-        var shot = Instantiate(projectile, shotPoint.position, shotPoint.rotation);
-        shot.GetComponent<Rigidbody2D>().AddForce(shotPoint.transform.up * fireForce);
+        //var shot = Instantiate(projectile, shotPoint.position, shotPoint.rotation);
+        //shot.GetComponent<Rigidbody2D>().AddForce(shotPoint.transform.up * fireForce);
     }
 
     // Start is called before the first frame update
